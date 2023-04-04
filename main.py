@@ -19,7 +19,7 @@ from pydantic import BaseModel
 class Schema(BaseModel):
     image: UploadFile
 
-print(" ........... App Started ........... ")
+print(" ........... App is Started ........... ")
 
 # Endpoints
 
