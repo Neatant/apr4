@@ -24,6 +24,6 @@ def predict(image_file):
     # For example, you might need to change the condition below
     # to compare the predicted class with a different threshold
     if prediction[0][0] < prediction[0][1]:
-        return {"result": "Uninfected"}
+        return {"result": "The Person is not Infected with Malaria"}
     else:
-        return {"result": "Parasite"}
+        return {"result": "The Person is Infected with Malaria, Seek Medical Help "}
